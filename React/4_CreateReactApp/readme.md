@@ -63,13 +63,13 @@
             - Create_react-App will automatically load this CSS
         - Conventional to add *className = "House"* onto **House** div
             - And use that prefix for sub-items to style:
-                - *<div className = "House">*
-                -    *<p className = "House-title">...</p>*
-                -    *<p className = "House-address">...</p>*
-                - *</div>*
+                - "<div className = "House">"
+                -    "<p className = "House-title">...</p>"
+                -    "<p className = "House-address">...</p>"
+                - "</div>"
 
     * **Images**
         - Store images in **src/** folder with the components
         - Load them where needed, and use imported name where path should go
-            - *import puppy from './puppy.jpeg'*
-            - *<img src={puppy} />*
+            - "import puppy from './puppy.jpeg'"
+            - "<img src={puppy} />"
