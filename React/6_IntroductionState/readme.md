@@ -71,7 +71,7 @@
         - Who is calling **handleClick** for us?
             - React is, on click
         - What is it calling it on?
-            - It doesn't remember to call it on our instance
+            - It doesn't remember to call it on our instance
             - The method was called "out of context"
         - What do we do?
             - **.bind()** it!
